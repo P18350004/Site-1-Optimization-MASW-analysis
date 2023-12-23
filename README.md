@@ -9,7 +9,7 @@ Step-1: Open MATLAB file "MASWaves".
 Step-2: MASW data (wavefield) for Site-1 is given by file "Site-1.dat" and used it in "MASWaves.m" file. 
 Step-3: Run the "MASWaves.m" code to obtian Dispersion image for Site-1 (Fig. 5c of Manuscript). 
 Step-4: After click on Run, Maltlab code ask to input "Fundamental mode dispersion curve:". Input "1:6" in commond window.
-Step-5: Save matlab file "c_curve0.mat" and "lambda_curve0" from workspace and use it in the ABCO, DE, GA, PSO and TLBO algorithm. There are 6 points on fundamental mode Disperison curve at Site-1. .
+Step-5: Save matlab file "c_curve0.mat" and "lambda_curve0" from workspace and use it in the ABCO, DE, GA, PSO and TLBO algorithm. There are 6 points on fundamental mode Disperison curve at Site-1.
 Step-6: The optimized Vs profile obtained from DE algorithm is already given in this "MASWaves" code. Click on Run "MASWaves.m" to generate the theoretical fundamental mode corresponding to optimized Vs profile.
 Step-7: Repeat these Steps using the optimized Vs profiles obtained from other optimization algorithms.
 
